@@ -9,8 +9,17 @@ public class Carro2 {
 
     
     //Constructor
+
+        public Carro2() {
+
+        }
+
         public Carro2(String modelo, String cor, String placa, int numPortas) {
-    }
+            this.modelo = modelo;
+            this.cor = cor;
+            this.placa = placa;
+            this.numPortas = numPortas;
+            }
         public String getModelo() {
             return modelo;
         }
