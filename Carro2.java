@@ -8,8 +8,16 @@ public class Carro2 {
     private int numPortas;
 
     
-    //Constructor
+    //Métodos da classe
         public Carro2(String modelo, String cor, String placa, int numPortas) {
+        
+        this.modelo = modelo;
+        this.cor = cor;
+        this.placa = placa;
+        this.numPortas = numPortas;
+
+        public Carro2() {
+        }
     }
         public String getModelo() {
             return modelo;
