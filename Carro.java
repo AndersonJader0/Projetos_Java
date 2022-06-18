@@ -5,6 +5,9 @@ public class Carro {
     private String placa;
     private int numPortas;
 
+Public Carro () {
+}
+
 
 /*-------------------------------------------Métodos da Classe----------------------------------------- */
 
