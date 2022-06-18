@@ -8,6 +8,7 @@ public class Carro2 {
     private int numPortas;
 
     
+<<<<<<< HEAD
     //Constructor
 
         public Carro2() {
@@ -20,6 +21,19 @@ public class Carro2 {
             this.placa = placa;
             this.numPortas = numPortas;
             }
+=======
+    //Métodos da classe
+        public Carro2(String modelo, String cor, String placa, int numPortas) {
+        
+        this.modelo = modelo;
+        this.cor = cor;
+        this.placa = placa;
+        this.numPortas = numPortas;
+
+        public Carro2() {
+        }
+    }
+>>>>>>> d100060739ab152b3c52509c7d6a8b7a24f78fb6
         public String getModelo() {
             return modelo;
         }
