@@ -5,7 +5,7 @@ public class Carro {
     private String placa;
     private int numPortas;
 
-Public Carro () {
+Public class Carro () {
 }
 
 
