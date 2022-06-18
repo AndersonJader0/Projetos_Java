@@ -5,9 +5,9 @@ public class Carro {
     private String placa;
     private int numPortas;
 
-Public class Carro () {
+//método construtor (Já vem automaticamente pelo compilador mesmo sem ter colocado, porém é aconselhavel escreve-lo.)
+public Carro () {
 }
-
 
 /*-------------------------------------------Métodos da Classe----------------------------------------- */
 
@@ -54,7 +54,7 @@ Public class Carro () {
 
     public static void main(String[] args) {
 
-        Carro meuCarro = new Carro();
+        Carro meuCarro = new Carro(); //o método construtor lá em cima está sendo executado.
         
         meuCarro.setModelo("HB20");
         meuCarro.setCor("yellow");
