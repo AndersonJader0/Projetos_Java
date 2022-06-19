@@ -1,0 +1,40 @@
+Esses são os produtos da nossa banca:
+produtos ... valores
+
+
+Gostaria de comprar algo? s/n   
+
+
+
+if n Ok, volte sempre!
+
+
+
+if s Qual produto?  -- Produto inexistente caso nome dif de produtos.
+
+
+
+if produto = ...
+if produto = ...
+if produto = ...
+
+
+
+Quantas unidade? -- insuficiente caso unidade > estoque;
+
+
+
+esses foram os seus pedidos:
+...
+...
+...
+
+Valor total X;
+
+
+
+Gostaria de comprar mais alguma coisa? s/n
+
+
+
+if n Ok obrigado pela compra! volte sempre!.
