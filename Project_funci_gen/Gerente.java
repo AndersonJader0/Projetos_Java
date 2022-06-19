@@ -11,7 +11,7 @@ public class Gerente extends Funcionario{
         this.codUsuario = codUsuario;
         this.senha = senha;
     }
-
+    @override
     public double calculabonificacao () {
         return this.getSalario() * 0.1 + 2000.00;
     }
