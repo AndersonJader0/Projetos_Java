@@ -15,5 +15,9 @@ public class TestaFuncionario {
         System.out.println("-----------------Bonificacao---------------");
         System.out.println("Gerente = " + gen.calculaBonificacao());
         System.out.println("Funcionario = " + funci.calculaBonificacao());
+
+        System.out.println("-------------------Total-------------------");
+        System.out.println("Total do Funcionario = " + funci.total());
+        System.out.println("Total do Gerente = " + gen.total());
     }
 }

@@ -18,6 +18,10 @@ public class Funcionario {
     return this.salario * 0.1;
     }
 
+    public double total () {
+    return this.salario + salario * 0.1;
+    }
+
     //setters e getters
 
     public String getNome() {
