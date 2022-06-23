@@ -1,5 +1,5 @@
 public class Main {
-
+    
     public static void main(String[] args) {
 
         Pessoa pessoa1 = new Pessoa("João Victor", 19, 1.80, 80);
