@@ -1,0 +1,3 @@
+PROBLEMA
+"Para a educação fisica, hospitais e postos de saúde, os profissionais calculam um Índice corporal, chamado IMC (Índice de Massa Corpórea). Nós queremos otimizar o serviço e ao invés de usar uma calculadora padrão, queremos um programa q faça essa conta para gente, ganhando tempo.
+Precisamos que apareça: nome da pessoa, sexo da pessoa, idade da pessoa e o IMC da pessoa."
