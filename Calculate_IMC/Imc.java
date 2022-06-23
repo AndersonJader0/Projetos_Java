@@ -19,7 +19,6 @@ import javax.swing.JOptionPane;
         n4 = JOptionPane.showInputDialog("Digite a altura em metros");
         n5 = JOptionPane.showInputDialog("Digite o peso em kg");
 
-
         double numero1 = Double.parseDouble(n4);
         double numero2 = Double.parseDouble(n5);
 
@@ -29,16 +28,43 @@ import javax.swing.JOptionPane;
         String calc;
         calc = "O IMC é = "+resultado;
 
-        JOptionPane.showMessageDialog(null, calc);
+        if (resultado <= 18.5) {
 
-        JOptionPane.showMessageDialog(null, "Dados"
-        + "\nNome: " + n1
-        + "\nSexo: " + n2
-        + "\nIdade: " + n3
-        + "\n" + calc
+            String classificacaoIMC = "Magreza";
 
-        );
+            JOptionPane.showMessageDialog(null, "Dados"
+            + "\nNome: " + n1
+            + "\nSexo: " + n2
+            + "\nIdade: " + n3
+            + "\n" + calc
+            + "\n" + classificacaoIMC
+            );
+        }
+        if (resultado >= 25) {
+
+            String classificacaoIMC = "Obesidade";
+
+            JOptionPane.showMessageDialog(null, "Dados"
+            + "\nNome: " + n1
+            + "\nSexo: " + n2
+            + "\nIdade: " + n3
+            + "\n" + calc
+            + "\n" + classificacaoIMC
+            );
+        }
+        if (resultado <= 25 && resultado >=18.5) {
+
+            String classificacaoIMC = "Normalidade";
+
+
+            JOptionPane.showMessageDialog(null, "Dados"
+            + "\nNome: " + n1
+            + "\nSexo: " + n2
+            + "\nIdade: " + n3
+            + "\n" + calc
+            + "\n" + classificacaoIMC
+            );
+        }
     }
-
 }
 
