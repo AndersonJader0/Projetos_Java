@@ -8,18 +8,20 @@ import javax.swing.JOptionPane;
         String n2;
         String n3;
         String n4;
+        String n5;
 
 
         JOptionPane.showMessageDialog(null, "Esse é um programinha para calcular o IMC");
         
         n1 = JOptionPane.showInputDialog("Digite o nome");
-        n2 = JOptionPane.showInputDialog("Digite a idade");
-        n3 = JOptionPane.showInputDialog("Digite a altura em metros");
-        n4 = JOptionPane.showInputDialog("Digite o peso em kg");
+        n2 = JOptionPane.showInputDialog("Digite o sexo");
+        n3 = JOptionPane.showInputDialog("Digite a idade");
+        n4 = JOptionPane.showInputDialog("Digite a altura em metros");
+        n5 = JOptionPane.showInputDialog("Digite o peso em kg");
 
 
-        double numero1 = Double.parseDouble(n3);
-        double numero2 = Double.parseDouble(n4);
+        double numero1 = Double.parseDouble(n4);
+        double numero2 = Double.parseDouble(n5);
 
         double alturax = numero1 * numero1;
         double resultado = numero2 / alturax;
@@ -31,8 +33,10 @@ import javax.swing.JOptionPane;
 
         JOptionPane.showMessageDialog(null, "Dados"
         + "\nNome: " + n1
-        + "\nIdade: " + n2
+        + "\nSexo: " + n2
+        + "\nIdade: " + n3
         + "\n" + calc
+
         );
     }
 
