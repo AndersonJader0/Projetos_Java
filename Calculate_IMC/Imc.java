@@ -11,7 +11,7 @@ import javax.swing.JOptionPane;
         String n5;
 
 
-        JOptionPane.showMessageDialog(null, "Esse é um programinha para calcular o IMC");
+        JOptionPane.showMessageDialog(null, "Esse é um programinha para calcular o IMC - (Índice de Massa Corporal).");
         
         n1 = JOptionPane.showInputDialog("Digite o nome");
         n2 = JOptionPane.showInputDialog("Digite o sexo");
@@ -30,7 +30,7 @@ import javax.swing.JOptionPane;
 
         if (resultado <= 18.5) {
 
-            String classificacaoIMC = "Magreza";
+            String classificacaoIMC = "Classificação: Magreza";
 
             JOptionPane.showMessageDialog(null, "Dados"
             + "\nNome: " + n1
@@ -42,7 +42,7 @@ import javax.swing.JOptionPane;
         }
         if (resultado >= 25) {
 
-            String classificacaoIMC = "Obesidade";
+            String classificacaoIMC = "Classificação: Obesidade";
 
             JOptionPane.showMessageDialog(null, "Dados"
             + "\nNome: " + n1
@@ -54,7 +54,7 @@ import javax.swing.JOptionPane;
         }
         if (resultado <= 25 && resultado >=18.5) {
 
-            String classificacaoIMC = "Normalidade";
+            String classificacaoIMC = "Classificação: Normal";
 
 
             JOptionPane.showMessageDialog(null, "Dados"
