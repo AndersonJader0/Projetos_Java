@@ -325,7 +325,6 @@ public class Teste {
                 
                 double A;
                 A = PI * D;
-    
         
                 String calc;
                 calc = "Área do circulo é = " + A;
@@ -350,7 +349,6 @@ public class Teste {
 
                 String calc;
                 calc = "O perimetro da circunferência é = " + C;
-        
         
                 JOptionPane.showMessageDialog(null, calc);
                 }
