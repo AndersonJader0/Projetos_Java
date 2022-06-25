@@ -19,7 +19,7 @@ public class Teste {
 
         int numero0 = Integer.parseInt(n0);
 
-        if (numero0 == 1) {
+if (numero0 == 1) {
 
         n1 = JOptionPane.showInputDialog("O que você gostaria de calcular?"
         + "\n1 - Área"
@@ -64,7 +64,7 @@ public class Teste {
         }
     }
         
-        if (numero0 == 2) {
+if (numero0 == 2) {
 
             n1 = JOptionPane.showInputDialog("O que você gostaria de calcular?"
             + "\n1 - Área"
@@ -117,7 +117,7 @@ public class Teste {
                 JOptionPane.showMessageDialog(null, calc);
             }
     }
-        if (numero0 ==3){
+if (numero0 ==3){
 
             n0 = JOptionPane.showInputDialog("Qual triangulo você gostaria de calcular?"
             + "\n1 - Escaleno"
@@ -127,7 +127,7 @@ public class Teste {
 
             int numero1 = Integer.parseInt(n0);
 
-                if (numero1 == 3) {
+            if (numero1 == 3) {
                 n1 = JOptionPane.showInputDialog("O que você gostaria de calcular?"
                 + "\n1 - Área"
                 + "\n2 - Perimetro"
@@ -301,58 +301,58 @@ public class Teste {
         }
     }
     }
+    }
        
-            if (numero0 ==4){
+if (numero0 == 4){
                 
-                n1 = JOptionPane.showInputDialog("O que você gostaria de calcular?"
-                + "\n1 - Circunferencia"
-                + "\n2 - Área"
-                );
+    n1 = JOptionPane.showInputDialog("O que você gostaria de calcular?"
+    + "\n1 - Circunferencia"
+    + "\n2 - Área"
+    );
         
-                int numero1111 = Integer.parseInt(n1);
+    int numero1111 = Integer.parseInt(n1);
         
-                if (numero1111 == 2) {
+        if (numero1111 == 2) {
                 
-                n2 = JOptionPane.showInputDialog("Qual o raio da circunferência?");
+        n2 = JOptionPane.showInputDialog("Qual o raio da circunferência?");
         
-                double numero2 = Double.parseDouble(n2);   
+        double numero2 = Double.parseDouble(n2);   
 
-                double PI;
-                PI = 3.14;
+        double PI;
+        PI = 3.14;
 
-                double D;
-                D = numero2 * numero2;
+        double D;
+        D = numero2 * numero2;
                 
-                double A;
-                A = PI * D;
+        double A;
+        A = PI * D;
         
-                String calc;
-                calc = "Área do circulo é = " + A;
+        String calc;
+        calc = "Área do circulo é = " + A;
         
         
-                JOptionPane.showMessageDialog(null, calc);
-                }
-
-                if (numero1111 == 1) {
-                    n2 = JOptionPane.showInputDialog("Qual o raio da circunferência?");
-        
-                double numero2 = Double.parseDouble(n2);   
-
-                double D;
-                 D = numero2 * 2;
-
-                double Pi;
-                Pi = 3.14;
-
-                double C;
-                C = Pi * D;
-
-                String calc;
-                calc = "O perimetro da circunferência é = " + C;
-        
-                JOptionPane.showMessageDialog(null, calc);
-                }
+        JOptionPane.showMessageDialog(null, calc);
         }
-}
+
+        if (numero1111 == 1) {
+        n2 = JOptionPane.showInputDialog("Qual o raio da circunferência?");
+        
+        double numero2 = Double.parseDouble(n2);   
+
+        double D;
+        D = numero2 * 2;
+
+        double Pi;
+        Pi = 3.14;
+
+        double C;
+        C = Pi * D;
+
+        String calc;
+        calc = "O perimetro da circunferência é = " + C;
+        
+        JOptionPane.showMessageDialog(null, calc);
+        }
+    }
 }
 }
